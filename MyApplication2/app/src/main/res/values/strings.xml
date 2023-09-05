@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="facebook">Facebook</string>
+    <string name="pubg">Pubg</string>
+    <string name="google">Google</string>
+    <string name="instagram">Instagram</string>
+</resources>
