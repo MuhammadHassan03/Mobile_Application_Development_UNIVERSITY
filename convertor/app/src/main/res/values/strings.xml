@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Units Convertor</string>
+    <string-array name="currency">
+        <item>USD</item>
+        <item>PKR</item>
+    </string-array>
+    <string-array name="Area">
+        <item>Length</item>
+        <item>Width</item>
+        <item>Height</item>
+    </string-array>
+    <string-array name="Temperature">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+    </string-array>
+    <string-array name="Volume">
+        <item>Cubic Meter</item>
+        <item>Cubic Kilometer</item>
+    </string-array>
+
+    <string-array name="Weight">
+        <item>KG</item>
+        <item>LBS</item>
+    </string-array>
+
+    <string-array name="Mass">
+        <item>Kilo</item>
+        <item>Grams</item>
+    </string-array>
+
+    <string-array name="Length">
+        <item>CentiMeters</item>
+        <item>Meters</item>
+    </string-array>
+    <string-array name="TimeCountry">
+        <item>Pakistan</item>
+        <item>Belgium</item>
+    </string-array>
+    <string-array name="TimeUnit">
+        <item>Hours</item>
+        <item>Minutes</item>
+    </string-array>
+</resources>
