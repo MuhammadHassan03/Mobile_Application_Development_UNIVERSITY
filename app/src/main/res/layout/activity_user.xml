@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Location Name -->
+    <TextView
+        android:id="@+id/textViewLocationName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location Name"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/editTextLocationName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewLocationName"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_toEndOf="@+id/textViewLocationName"
+        android:layout_toRightOf="@+id/textViewLocationName"
+        android:hint="Enter location name" />
+
+    <!-- Location Description -->
+    <TextView
+        android:id="@+id/textViewLocationDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location Description"
+        android:layout_below="@+id/editTextLocationName"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextLocationDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewLocationDescription"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_toEndOf="@+id/textViewLocationDescription"
+        android:layout_toRightOf="@+id/textViewLocationDescription"
+        android:hint="Enter location description" />
+
+    <!-- Add Picture Button -->
+    <Button
+        android:id="@+id/buttonAddPicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextLocationDescription"
+        android:layout_marginTop="16dp"
+        android:text="Add Picture"
+        android:layout_centerHorizontal="true" />
+
+    <!-- Location Picture ImageView -->
+    <ImageView
+        android:id="@+id/imageViewLocationPicture"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/buttonAddPicture"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:visibility="gone" />
+
+    <!-- Save Location Note Button -->
+    <Button
+        android:id="@+id/buttonSaveLocationNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewLocationPicture"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="Save Location Note" />
+
+    <!-- RecyclerView for Notes -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonSaveLocationNote"
+        android:layout_marginTop="16dp">
+    </androidx.recyclerview.widget.RecyclerView>
+</RelativeLayout>
